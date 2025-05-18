@@ -76,9 +76,7 @@ Estimate CLV for each customer based on transaction volume and account tenure.
 - **Challenge:** All amount fields were stored in Kobo.
 - **Solution:** Ensured all relevant amounts were divided by 100 and rounded to 2 decimal places.
 
-### 3. **Avoiding Division by Zero**
-- **Challenge:** CLV calculation could result in division by zero for users with zero tenure.
-- **Solution:** Ensured tenure > 0 through data context; optionally, can add explicit filter for safety.
+
 
 
 ---
